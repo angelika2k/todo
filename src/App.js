@@ -1,4 +1,5 @@
 import './App.css';
+import DisplayTodos from './components/DisplayTodos';
 import Todos from './components/Todos';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <span className="se"></span>
       </div>
       <Todos/>
+      <DisplayTodos/>
     </div>
   );
 }
